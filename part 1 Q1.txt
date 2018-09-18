@@ -1,0 +1,48 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+
+{
+    
+ 
+   int a[10], i, b, j=0;
+   
+ cout<<"enter 10 nos.";
+  
+  for (i=0; i<=10; i++)
+   
+ {
+    cin>> a[i] ;
+    
+}
+    
+  
+
+
+  for (i=0; i<=10; i++)
+    
+{
+        if (a[j]==a[i++])
+      
+   {
+             cout<<"duplicate element"<<a[i]<<endl;
+       
+  }
+           
+    
+        j++;
+   
+ }
+    
+    
+    
+    
+
+    return 0;
+
+
+}
